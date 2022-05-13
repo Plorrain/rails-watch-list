@@ -1,9 +1,10 @@
-<h1>Movie Lists</h1>
+<h2 id="movie-lists">Movie Lists</h2>
 
 <ul>
   <% @lists.each do |list| %>
-    <li><%= link_to list.name, list_path(list) %></li>
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+      <li><%= link_to list.name, list_path(list) %>
+      </div>
+    </li>
   <% end %>
 </ul>
-
-<p><%= link_to 'Add a list', new_list_path %></p>

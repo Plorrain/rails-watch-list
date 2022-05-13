@@ -1,0 +1,25 @@
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#movie-lists {
+    margin-top: 10px;
+    color: #0A043C;
+}
+
+a:hover {
+    color: #B4A5A5;
+}
+
+.card-category {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 60px;
+    padding: 80px;
+}
